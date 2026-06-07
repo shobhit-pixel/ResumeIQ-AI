@@ -53,7 +53,7 @@ User Experience
 
 Home Page
 
-screenshots/home.png
+screenshots/home.jpg
 
 
 Resume Analysis Dashboard
