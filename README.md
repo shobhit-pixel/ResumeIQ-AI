@@ -60,7 +60,6 @@ Resume Analysis Dashboard
 
 screenshots/dashboard1.jpg
 
-screenshots/dashboard2.jpg
 
 ---
 
@@ -163,8 +162,9 @@ http://localhost:5000
 ---
 
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 ResumeIQ-AI
 │
 ├── frontend
@@ -195,13 +195,12 @@ ResumeIQ-AI
 │   │   └── atsScore.js
 │   │
 │   ├── uploads
-│   │
 │   └── server.js
 │
 ├── screenshots
-│
 ├── README.md
 └── .gitignore
+```
 ---
 
 🎯 ATS Features
