@@ -162,6 +162,7 @@ http://localhost:5000
 
 ---
 
+
 📂 Project Structure
 
 ResumeIQ-AI
@@ -201,7 +202,6 @@ ResumeIQ-AI
 │
 ├── README.md
 └── .gitignore
-
 ---
 
 🎯 ATS Features
