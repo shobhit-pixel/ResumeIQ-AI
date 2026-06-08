@@ -16,15 +16,6 @@ https://github.com/shobhit-pixel/ResumeIQ-AI
 
 ---
 
-## 📸 Project Preview
-
-
-```md
-![Home Page](/frontend/public/screenshot.png)
-```
-
----
-
 ## ✨ Features
 
 ### 📄 Resume Upload
