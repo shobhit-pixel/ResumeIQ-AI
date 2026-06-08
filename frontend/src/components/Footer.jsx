@@ -22,7 +22,7 @@ export default function Footer() {
 </a>
 
           <a
-            href="https://linkedin.com/in/shobhit-k-tripathi"
+            href="https://in.linkedin.com/in/shobhit-k-tripathi"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 transition hover:text-blue-400"
@@ -31,7 +31,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:shobhitkrishnagopaltripathi@gmail.com"
+            href="mailto:formailshobhit@gmail.com"
             className="text-gray-400 transition hover:text-blue-400"
           >
             Email
