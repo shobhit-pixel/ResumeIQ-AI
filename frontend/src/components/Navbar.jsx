@@ -7,9 +7,26 @@ export default function Navbar() {
       </h1>
 
       <div className="flex gap-8 text-gray-300">
-        <a href="#">Features</a>
-        <a href="#">ATS Analysis</a>
-        <a href="#">Dashboard</a>
+        <a
+          href="#features"
+          className="transition hover:text-blue-400"
+        >
+          Features
+        </a>
+
+        <a
+          href="#analysis"
+          className="transition hover:text-blue-400"
+        >
+          ATS Analysis
+        </a>
+
+        <a
+  href="#about"
+  className="transition hover:text-blue-400"
+>
+  About
+</a>
       </div>
 
     </nav>

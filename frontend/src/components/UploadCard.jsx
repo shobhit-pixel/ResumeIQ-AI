@@ -83,15 +83,15 @@ setUploadStatus("✅ Resume uploaded successfully");
 
   return (
     <motion.div
-      whileHover={{ scale: 1.02 }}
-      className="mt-16 w-full max-w-4xl"
-    >
+  whileHover={{ scale: 1.01 }}
+  className="mt-16 w-full max-w-5xl mx-auto"
+>
       <div
   onDrop={handleDrop}
   onDragOver={handleDragOver}
-  className="rounded-3xl border-2 border-dashed border-white/20 bg-white/5 p-12 text-center backdrop-blur-md shadow-[0_0_80px_rgba(59,130,246,0.15)] transition hover:border-blue-400 hover:bg-white/10"
+  className="rounded-3xl border-2 border-dashed border-white/20 bg-white/5 p-16 text-center backdrop-blur-md shadow-[0_0_80px_rgba(59,130,246,0.15)] transition hover:border-blue-400"
 >
-<div className="mb-4 text-7xl">
+<div className="mb-4 text-8xl">
   📤
 </div>
 
@@ -150,6 +150,7 @@ setUploadStatus("✅ Resume uploaded successfully");
             {uploadStatus}
           </p>
         )}
+        </div>
         {atsScore && (
  <ATSResult
   atsScore={atsScore}
@@ -159,7 +160,7 @@ setUploadStatus("✅ Resume uploaded successfully");
   jobMatch={jobMatch}
 />
 )}
-      </div>
+      
     </motion.div>
   );
 }
