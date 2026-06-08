@@ -1,154 +1,145 @@
-ResumeIQ AI
+# 🚀 ResumeIQ AI
 
-🚀 AI-Powered ATS Resume Analyzer built using React.js, Node.js, Express.js, Tailwind CSS, and PDF Parsing.
+An AI-inspired ATS Resume Analyzer that helps students, job seekers, and professionals evaluate and improve their resumes through automated analysis.
 
-ResumeIQ AI helps users analyze their resumes, calculate ATS scores, identify missing skills, evaluate resume strength, and receive personalized recommendations to improve their chances of getting shortlisted by recruiters.
-
----
-
-📌 Features
-
-Resume Upload
-
-- Upload PDF resumes
-- Drag & Drop support
-- Secure file handling
-
-Resume Analysis
-
-- PDF text extraction
-- Technical skill detection
-- ATS score calculation
-- Resume strength evaluation
-
-Skill Gap Analysis
-
-- Skills found in resume
-- Missing skills detection
-- Industry-relevant recommendations
-
-AI Suggestions
-
-- Personalized resume improvement tips
-- Career-focused recommendations
-- Resume optimization insights
-
-Job Match Analysis
-
-- Frontend Developer Match
-- React Developer Match
-- Full Stack Developer Match
-- Backend Developer Match
-
-User Experience
-
-- Modern responsive dashboard
-- Interactive visual cards
-- Loading animation during analysis
-- Mobile-friendly design
-
-
+ResumeIQ AI extracts text from PDF resumes, analyzes skills, calculates ATS scores, identifies missing technologies, provides personalized recommendations, and matches resumes with suitable job roles.
 
 ---
 
-🛠️ Tech Stack
+## 🌐 Live Demo
 
-Frontend
+**Live Website:**
+https://resume-iq-ai-gamma.vercel.app/
 
-- React.js
-- Tailwind CSS
-- Axios
-- Framer Motion
-- Vite
-
-Backend
-
-- Node.js
-- Express.js
-- Multer
-- PDF-Parse
-
-Development Tools
-
-- VS Code
-- Git
-- GitHub
+**GitHub Repository:**
+https://github.com/shobhit-pixel/ResumeIQ-AI
 
 ---
 
-🏗️ Project Architecture
+## 📸 Project Preview
 
-PDF Resume
-      │
-      ▼
-Upload Resume
-      │
-      ▼
-PDF Parsing
-      │
-      ▼
-Text Extraction
-      │
-      ▼
-Skill Detection
-      │
-      ▼
-ATS Score Engine
-      │
-      ▼
-Missing Skills Analysis
-      │
-      ▼
-AI Suggestions
-      │
-      ▼
-Job Match Analysis
-      │
-      ▼
-Interactive Dashboard
+
+```md
+![Home Page](/frontend/public/screenshot.png)
+```
 
 ---
 
-⚡ Installation Guide
+## ✨ Features
 
-Clone Repository
+### 📄 Resume Upload
 
-git clone https://github.com/shobhit-pixel/ResumeIQ-AI.git
+* Upload PDF resumes
+* Drag & Drop support
+* Secure file handling
+* Real-time processing
 
-cd ResumeIQ-AI
+### 🎯 ATS Score Analysis
+
+ResumeIQ AI evaluates resumes and generates an ATS compatibility score based on:
+
+* Technical skills
+* Keyword coverage
+* Skill completeness
+* Industry relevance
+
+### 💪 Resume Strength Meter
+
+Visual progress bar showing overall resume quality.
+
+Categories:
+
+| Score    | Rating            |
+| -------- | ----------------- |
+| 80+      | Excellent         |
+| 60-79    | Good              |
+| Below 60 | Needs Improvement |
+
+### 🛠 Skills Detection
+
+Automatically extracts skills from resumes.
+
+Examples:
+
+* HTML
+* CSS
+* JavaScript
+* React
+* Node.js
+* Express.js
+* MongoDB
+* MySQL
+* Python
+* Git
+* GitHub
+* Bootstrap
+
+### ❌ Missing Skills Detection
+
+Identifies important technologies not present in the resume.
+
+Examples:
+
+* TypeScript
+* Redux
+* Tailwind CSS
+* Next.js
+* Express.js
+* MongoDB
+
+### 🤖 AI Suggestions
+
+Generates improvement recommendations based on missing skills.
+
+Examples:
+
+* Add TypeScript to improve frontend opportunities
+* Learn Node.js for full-stack roles
+* Add MongoDB projects to strengthen backend profile
+
+### 📊 Job Match Analysis
+
+Analyzes resume skills and predicts compatibility with common roles.
+
+Examples:
+
+| Role                 | Match |
+| -------------------- | ----- |
+| Frontend Developer   | 95%   |
+| React Developer      | 90%   |
+| Full Stack Developer | 75%   |
+| Backend Developer    | 60%   |
+
+### 📱 Responsive Design
+
+* Desktop optimized
+* Tablet friendly
+* Mobile responsive
 
 ---
 
-Frontend Setup
+## 🏗 Tech Stack
 
-cd frontend
+### Frontend
 
-npm install
+* React.js
+* Tailwind CSS
+* Framer Motion
+* Axios
 
-npm run dev
+### Backend
 
-Frontend runs on:
+* Node.js
+* Express.js
+* Multer
+* PDF-Parse
 
-http://localhost:5173
+### Deployment
 
----
-
-Backend Setup
-
-Open another terminal:
-
-cd backend
-
-npm install
-
-npm run dev
-
-Backend runs on:
-
-http://localhost:5000
+* Vercel (Frontend)
+* Render (Backend)
 
 ---
-
 
 ## 📂 Project Structure
 
@@ -156,12 +147,14 @@ http://localhost:5000
 ResumeIQ-AI
 │
 ├── frontend
+│   │
 │   ├── src
 │   │   ├── components
 │   │   │   ├── Navbar.jsx
 │   │   │   ├── UploadCard.jsx
 │   │   │   ├── ATSResult.jsx
-│   │   │   └── StrengthMeter.jsx
+│   │   │   ├── StrengthMeter.jsx
+│   │   │   └── Footer.jsx
 │   │   │
 │   │   ├── pages
 │   │   │   └── Home.jsx
@@ -171,6 +164,7 @@ ResumeIQ-AI
 │   └── package.json
 │
 ├── backend
+│   │
 │   ├── controllers
 │   │   └── resumeController.js
 │   │
@@ -183,107 +177,204 @@ ResumeIQ-AI
 │   │   └── atsScore.js
 │   │
 │   ├── uploads
+│   │
 │   └── server.js
 │
 ├── screenshots
+│   └── home.jpg
+│
 ├── README.md
 └── .gitignore
 ```
----
-
-🎯 ATS Features
-
-ATS Score
-
-Calculates resume score based on:
-
-- Technical skills
-- Keyword coverage
-- Skill completeness
 
 ---
 
-Resume Strength
+## ⚙️ Installation
 
-Categories:
+### Clone Repository
 
-Score| Rating
-80+| Excellent
-60-79| Good
-Below 60| Needs Improvement
+```bash
+git clone https://github.com/shobhit-pixel/ResumeIQ-AI.git
+```
 
----
-
-Skills Analysis
-
-Example:
-
-Skills Found:
-HTML
-CSS
-JavaScript
-React
-PHP
-MySQL
-
-Missing Skills:
-TypeScript
-Redux
-Tailwind CSS
-Node.js
-MongoDB
+```bash
+cd ResumeIQ-AI
+```
 
 ---
 
-Job Match Analysis
+## Frontend Setup
 
-Example:
+```bash
+cd frontend
+```
 
-Frontend Developer     95%
-React Developer        90%
-Full Stack Developer   75%
-Backend Developer      60%
+```bash
+npm install
+```
 
----
+```bash
+npm run dev
+```
 
-🚀 Future Enhancements
+Frontend runs on:
 
-- Google Gemini AI Integration
-- Resume PDF Preview
-- User Authentication
-- Resume History Tracking
-- Advanced ATS Engine
-- Export ATS Report
-- Interview Question Generator
-- AI Resume Rewriter
+```text
+http://localhost:5173
+```
 
 ---
 
-📈 Resume Highlights
+## Backend Setup
 
-ResumeIQ AI demonstrates:
+Open a second terminal:
 
-- Frontend Development
-- Backend Development
-- REST APIs
-- File Handling
-- PDF Processing
-- Data Analysis
-- ATS Logic Implementation
-- Dashboard Development
-- Responsive UI Design
+```bash
+cd backend
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run dev
+```
+
+Backend runs on:
+
+```text
+http://localhost:5000
+```
 
 ---
 
-👨‍💻 Author
+## API Endpoint
 
-Shobhit Tripathi
+### Upload Resume
 
-Frontend Developer | React.js Developer | Web Developer
+```http
+POST /api/upload
+```
 
-GitHub:
-https://github.com/shobhit-pixel
+Form Data:
 
-LinkedIn:
-https://linkedin.com/in/shobhit-k-tripathi
+```text
+resume : PDF File
+```
 
+Response:
+
+```json
+{
+  "success": true,
+  "atsScore": 83,
+  "skills": [
+    "html",
+    "css",
+    "javascript",
+    "react"
+  ],
+  "missingSkills": [
+    "typescript",
+    "redux",
+    "tailwind"
+  ]
+}
+```
+
+---
+
+## Workflow
+
+```text
+Upload Resume
+      ↓
+PDF Parsing
+      ↓
+Text Extraction
+      ↓
+Skill Detection
+      ↓
+ATS Score Calculation
+      ↓
+Missing Skills Analysis
+      ↓
+AI Suggestions
+      ↓
+Job Match Prediction
+      ↓
+Dashboard Output
+```
+
+---
+
+## Future Enhancements
+
+### Gemini AI Integration
+
+* AI Resume Review
+* AI Resume Rewriting
+* AI Career Guidance
+
+### Additional Features
+
+* User Authentication
+* Resume History Tracking
+* Resume PDF Preview
+* Export ATS Reports
+* AI Interview Question Generator
+* Resume Comparison Tool
+* Advanced ATS Engine
+
+---
+
+## Learning Outcomes
+
+This project helped in learning:
+
+* React.js Components
+* State Management
+* File Upload Handling
+* REST APIs
+* Express.js Routing
+* PDF Processing
+* Responsive Design
+* ATS Resume Analysis Concepts
+* Full Stack Development
+
+---
+
+## 👨‍💻 Developer
+
+### Shobhit Tripathi
+
+Frontend Developer | React.js Developer
+
+GitHub: https://github.com/shobhit-pixel
+
+LinkedIn: https://in.linkedin.com/in/shobhit-k-tripathi
+
+Email: [shobhitkrishnagopaltripathi@gmail.com](mailto:formailshobhit@gmail.com)
+
+---
+
+## 📄 License
+
+This project is open-source and available for educational and portfolio purposes.
+
+---
+
+## ⭐ Support
+
+If you found this project helpful:
+
+⭐ Star the repository
+
+🍴 Fork the project
+
+📢 Share it with others
+
+---
+
+**Built with React.js, Node.js, Express.js, Tailwind CSS & AI**
