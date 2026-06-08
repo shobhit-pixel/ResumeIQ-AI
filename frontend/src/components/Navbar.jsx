@@ -6,7 +6,13 @@ export default function Navbar() {
         ResumeIQ AI
       </h1>
 
-      <div className="flex gap-8 text-gray-300">
+      <div className="flex gap-8 text-gray-300"> 
+        <a
+          href="#analysis"
+          className="transition hover:text-blue-400"
+        >
+          ATS Analysis
+        </a>
         <a
           href="#features"
           className="transition hover:text-blue-400"
@@ -14,12 +20,7 @@ export default function Navbar() {
           Features
         </a>
 
-        <a
-          href="#analysis"
-          className="transition hover:text-blue-400"
-        >
-          ATS Analysis
-        </a>
+       
 
         <a
   href="#about"
