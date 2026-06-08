@@ -84,12 +84,12 @@ setUploadStatus("✅ Resume uploaded successfully");
   return (
     <motion.div
   whileHover={{ scale: 1.01 }}
-  className="mt-16 w-full max-w-5xl mx-auto"
+  className="w-full max-w-5xl mx-auto px-4"
 >
       <div
   onDrop={handleDrop}
   onDragOver={handleDragOver}
-  className="rounded-3xl border-2 border-dashed border-white/20 bg-white/5 p-16 text-center backdrop-blur-md shadow-[0_0_80px_rgba(59,130,246,0.15)] transition hover:border-blue-400"
+  className="rounded-3xl border-2 border-dashed border-white/20 bg-white/5 p-6 md:p-16 text-center backdrop-blur-md shadow-[0_0_80px_rgba(59,130,246,0.15)] transition hover:border-blue-400"
 >
 <div className="mb-4 text-8xl">
   📤
@@ -120,7 +120,7 @@ setUploadStatus("✅ Resume uploaded successfully");
 
         <label
           htmlFor="resumeUpload"
-          className="cursor-pointer rounded-xl bg-gradient-to-r from-blue-500 to-purple-500 px-8 py-3 font-semibold shadow-lg shadow-purple-500/30 transition hover:scale-105"
+           className="w-full max-w-xs cursor-pointer rounded-xl bg-gradient-to-r from-blue-500 to-purple-500 px-8 py-3 font-semibold shadow-lg shadow-purple-500/30 transition hover:scale-105"
         >
           Choose Resume
         </label>

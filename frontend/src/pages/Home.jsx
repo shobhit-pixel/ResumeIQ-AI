@@ -33,7 +33,7 @@ export default function Home() {
 </h1>
 
         {/* Description */}
-        <p className="mt-6 max-w-2xl text-center text-lg text-gray-400 md:text-xl">
+        <p className="mt-6 max-w-2xl text-center text-base md:text-xl text-gray-400">
           Analyze your resume with AI, uncover missing skills,
 boost ATS performance, and receive recruiter-ready recommendations.
         </p>

@@ -1,35 +1,45 @@
 export default function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between border-b border-white/10 bg-black/50 px-8 py-4 backdrop-blur-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/10 bg-black/50 backdrop-blur-md">
 
-      <h1 className="text-xl font-bold">
-        ResumeIQ AI
-      </h1>
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
 
-      <div className="flex gap-8 text-gray-300"> 
-        <a
-          href="#analysis"
-          className="transition hover:text-blue-400"
-        >
-          ATS Analysis
-        </a>
-        <a
-          href="#features"
-          className="transition hover:text-blue-400"
-        >
-          Features
-        </a>
+        <h1 className="text-lg font-bold md:text-xl">
+          ResumeIQ AI
+        </h1>
 
-       
+        {/* Mobile Menu */}
+        <div className="flex gap-4 text-sm text-gray-300 md:hidden">
 
-        <a
-  href="#about"
-  className="transition hover:text-blue-400"
->
-  About
-</a>
+          <a href="#analysis" className="hover:text-blue-400">
+            Analyze
+          </a>
+
+          <a href="#about" className="hover:text-blue-400">
+            About
+          </a>
+
+        </div>
+
+        {/* Desktop Menu */}
+        <div className="hidden gap-8 text-gray-300 md:flex">
+
+          <a href="#features" className="hover:text-blue-400">
+            Features
+          </a>
+
+          <a href="#analysis" className="hover:text-blue-400">
+            ATS Analysis
+          </a>
+
+          <a href="#about" className="hover:text-blue-400">
+            About
+          </a>
+
+        </div>
+
       </div>
 
     </nav>
-  )
+  );
 }
