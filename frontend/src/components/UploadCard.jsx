@@ -51,7 +51,7 @@ const handleFileChange = async (e) => {
     console.log("Uploading file...");
 
     const res = await axios.post(
-  "https://resumeiq-ai-0w1q.onrender.com/",
+  "https://resumeiq-ai-0w1q.onrender.com/api/upload",
   formData
 );
 
