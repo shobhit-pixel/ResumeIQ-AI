@@ -47,18 +47,6 @@ User Experience
 - Loading animation during analysis
 - Mobile-friendly design
 
----
-
-📷 Screenshots
-
-Home Page
-
-screenshots/home.jpg
-
-
-Resume Analysis Dashboard
-
-screenshots/dashboard1.jpg
 
 
 ---
