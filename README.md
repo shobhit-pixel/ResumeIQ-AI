@@ -346,13 +346,8 @@ GitHub: https://github.com/shobhit-pixel
 
 LinkedIn: https://in.linkedin.com/in/shobhit-k-tripathi
 
-Email: [shobhitkrishnagopaltripathi@gmail.com](mailto:formailshobhit@gmail.com)
+Email: [formailshobhit@gmail.com](mailto:formailshobhit@gmail.com)
 
----
-
-## 📄 License
-
-This project is open-source and available for educational and portfolio purposes.
 
 ---
 
